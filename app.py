@@ -95,7 +95,7 @@ image_response = client.models.generate_content(
 print(image_response.text)
 from PIL import Image
 
-image = Image.open("/content/sample_data/WhatsApp Image 2026-07-25 at 13.11.22.jpeg")
+image = Image.open("WhatsApp Image 2026-07-25 at 13.11.22.jpeg")
 analysis_prompt = f"""
 You are an expert social media marketing consultant.
 
